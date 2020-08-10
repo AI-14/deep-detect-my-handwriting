@@ -5,14 +5,10 @@
   ![Tensorflow](https://img.shields.io/badge/-Tensorflow-gray?style=flat&logo=tensorflow)
   ![Keras](https://img.shields.io/badge/-Keras-gray?style=flat&logo=keras)
   ![Streamlit](https://img.shields.io/badge/-Streamlit-f0806c?style=flat)
-  ![Heroku](https://img.shields.io/badge/-Heroku-6174c2?style=flat&logo=heroku)
 
 ## Description
-   A streamlit web app deployed on heroku for predicting handwritten drawn images using deep learning model.
-
-## Web App Link
-Coming soon...
-
+   A streamlit app for predicting handwritten drawn images using deep learning model.
+   
 ## Screenshots Of The Application
 ![](/res/readme_res/Pic1.png)
 
@@ -29,4 +25,4 @@ Coming soon...
 
 2. Usage
    - Open your project folder and go to the terminal and activate your virtual environment. Then type ````streamlit run src\main.py```` and the app will open in your web 
-   browser. Now you can interact with it or play with the code and add your own features and if you wish - you can deploy your own version of any deep learning model.
+   browser. Now you can interact with it or play with the code and add your own features and if you wish - you can deploy it on heroku.
