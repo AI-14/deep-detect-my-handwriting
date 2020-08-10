@@ -7,7 +7,7 @@
   ![Streamlit](https://img.shields.io/badge/-Streamlit-f0806c?style=flat)
 
 ## Description
-   A streamlit app for predicting handwritten drawn images using deep learning model.
+   A streamlit app for predicting handwritten drawn images using deep learning model (DFFNN).
    
 ## Screenshots Of The Application
 ![](/res/readme_res/Pic1.png)
