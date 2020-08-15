@@ -7,7 +7,8 @@
   ![Streamlit](https://img.shields.io/badge/-Streamlit-f0806c?style=flat)
 
 ## Description
-   A streamlit app for predicting handwritten drawn images using deep learning model (DFFNN).
+   A streamlit app for predicting handwritten drawn images using deep learning model (DFFNN). All you have to do is draw any digit from 0-9 on the canvas and the
+   model will predict the digit you drew in real time.
    
 ## Screenshots Of The Application
 ![](/res/readme_res/Pic1.png)
