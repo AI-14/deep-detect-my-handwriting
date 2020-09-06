@@ -4,6 +4,7 @@
   ![Sklearn](https://img.shields.io/badge/-Sklearn-1fb30e?style=flat)
   ![Tensorflow](https://img.shields.io/badge/-Tensorflow-gray?style=flat&logo=tensorflow)
   ![Keras](https://img.shields.io/badge/-Keras-gray?style=flat&logo=keras)
+  ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-black?style=flat&logo=jupyter)
   ![Streamlit](https://img.shields.io/badge/-Streamlit-f0806c?style=flat)
 
 ## Description
