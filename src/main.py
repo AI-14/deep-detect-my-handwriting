@@ -63,8 +63,8 @@ def predict_digit():
             # Scaling the image.
             image_re = image_data[:, :, :3]
             image_re = image_re.astype(float) // 255
-            mimg.imsave('img/digitImage.png', image_re)
-            img = Image.open('img/digitImage.png').convert('L').resize((28, 28)) 
+            mimg.imsave('img\\digitImage.png', image_re)
+            img = Image.open('img\\digitImage.png').convert('L').resize((28, 28)) 
 
             st.write('Drawn Image (Scaled)')
             st.image(img, width=280)  # Showing the image drawn.
