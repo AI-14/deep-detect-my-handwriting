@@ -8,7 +8,8 @@
   ![Streamlit](https://img.shields.io/badge/-Streamlit-f0806c?style=flat)
 
 ## Description
-   An end to end deep learning (DFFNN) project made using streamlit for predicting handwritten drawn images. All you have to do is draw any digit from 0-9 on the canvas and the model will predict the digit you drew in real time.
+   An end to end deep learning project made by using streamlit for predicting handwritten drawn digits/alphabets.
+   Click here to try the app: 
    
 ## Screenshots Of The Application
 ![](/res/readme_res/Pic1.png)
@@ -26,4 +27,4 @@
 
 2. Usage
    - Open your project folder and go to the terminal and activate your virtual environment. Then type ````streamlit run src\main.py```` and the app will open in your web 
-   browser. Now you can interact with it or play with the code and add your own features and if you wish - you can deploy it on heroku.
+   browser. Now you can interact with it or play with the code and add your own features and if you wish - you can deploy it too.
