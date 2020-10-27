@@ -22,10 +22,10 @@ def display_home_content():
             None
     '''
 
-    title = codecs.open('src/markdowns/title.md', 'r', 'utf-8')
-    info = codecs.open('src/markdowns/info.md', 'r', 'utf-8')
-    design = codecs.open('src/markdowns/design.md', 'r', 'utf-8')
-    egimg = Image.open('img/example.png')
+    title = codecs.open('src\\markdowns/\\title.md', 'r', 'utf-8')
+    info = codecs.open('src\\markdowns\\info.md', 'r', 'utf-8')
+    design = codecs.open('src\\markdowns\\design.md', 'r', 'utf-8')
+    egimg = Image.open('img\\example.png')
 
     st.markdown(title.read(), unsafe_allow_html=True)
     st.write('\n\n')
@@ -75,14 +75,14 @@ def predict_digit():
     try:
         if model_choice == 'Artificial Neural Network':
             img_ann = np.array(img).reshape((1, 784)) # Getting the input ready as per ANNs input format.
-            model = load_model('src/models/digits_ann.h5')
+            model = load_model('src\\models\\digits_ann.h5')
             pred_ann = model.predict(img_ann)
             if show_results:
                 visualize_digits(pred_ann)
     
         if model_choice == 'Convolutional Neural Network':
             img_cnn = np.array(img).reshape((-1, 28, 28, 1)) # Getting the input ready as per CNNs input format.
-            model = load_model('src/models/digits_cnn.h5')
+            model = load_model('src\\models\\digits_cnn.h5')
             pred_cnn = model.predict(img_cnn)
             if show_results:
                 visualize_digits(pred_cnn)
@@ -140,13 +140,13 @@ def predict_alphabet():
                 # Scaling the image.
                 image_re = image_data[:, :, :3]
                 image_re = image_re.astype(float) // 255  
-                mimg.imsave('img/alphaImage.png', image_re)
-                img = Image.open('img/alphaImage.png').convert('L').resize((28, 28))
+                mimg.imsave('img\\alphaImage.png', image_re)
+                img = Image.open('img\\alphaImage.png').convert('L').resize((28, 28))
 
                 st.write('Drawn Image (Scaled)')
                 st.image(img, width=280)  # Showing the image drawn.
                 img = np.array(img).reshape((-1, 28, 28, 1))
-                model = load_model('src/models/alphabets_cnn.h5')
+                model = load_model('src\\models\\alphabets_cnn.h5')
                 pred = model.predict(img)
             except Exception:
                 pass
