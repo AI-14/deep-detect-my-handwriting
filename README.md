@@ -12,7 +12,16 @@
    
    Click here to try the app:  
    [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/ai-14/deep-detect-my-handwriting/src/main.py)
-   
+
+## Steps Taken In This Project
+- Data Collection
+- EDA & Visualization
+- Model selection & building it.
+- Evaluation of the models.
+- Saving the models.
+- Application program for real time usage.
+- Deployment on streamlit-sharing.
+
 ## Installation And Usage
 1. Installation
    - Download/clone this repository and create a proper project folder where you will extract this repo's contents. Then open terminal (make sure you are in the project's directory).
