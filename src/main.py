@@ -22,7 +22,7 @@ def display_home_content():
             None
     '''
 
-    title = codecs.open('src\\markdowns/\\title.md', 'r', 'utf-8')
+    title = codecs.open('src\\markdowns\\title.md', 'r', 'utf-8')
     info = codecs.open('src\\markdowns\\info.md', 'r', 'utf-8')
     design = codecs.open('src\\markdowns\\design.md', 'r', 'utf-8')
     egimg = Image.open('img\\example.png')
