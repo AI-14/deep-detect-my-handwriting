@@ -9,15 +9,8 @@
 
 ## Description
    An end to end deep learning project made by using streamlit for predicting handwritten drawn digits/alphabets.
-   Click here to try the app: 
+   Click here to try the app:  [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/ai-14/deep-detect-my-handwriting/src/main.py)
    
-## Screenshots Of The Application
-![](/res/readme_res/Pic1.png)
-
-![](/res/readme_res/Pic2.png)
-
-![](/res/readme_res/Pic3.png)
-
 ## Installation And Usage
 1. Installation
    - Download/clone this repository and create a proper project folder where you will extract this repo's contents. Then open terminal (make sure you are in the project's directory).
