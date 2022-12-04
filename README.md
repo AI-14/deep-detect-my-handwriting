@@ -12,7 +12,7 @@
    
    Click here to try the app: 
    
-   [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/ai-14/deep-detect-my-handwriting/src/main.py)
+   [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-14-deep-detect-my-handwriting-srcmain-ltg1gw.streamlit.app/)
 
 ## Steps Taken In This Project
 <details>
