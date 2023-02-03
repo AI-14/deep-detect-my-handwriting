@@ -7,39 +7,33 @@
   ![Jupyter Notebook](https://img.shields.io/badge/-Jupyter%20Notebook-black?style=flat&logo=jupyter)
   ![Streamlit](https://img.shields.io/badge/-Streamlit-f0806c?style=flat)
 
-## Description
-   An end to end deep learning project made by using streamlit for predicting handwritten drawn digits/alphabets.
+# Table of contents
+1. [Description](#description)
+2. [Steps taken in this project](#project-steps)
+3. [Installation and Usage](#installation-usage)
+
+## Description <a name="description"></a>
+   An end to end deep learning project made by using streamlit for predicting handwritten drawn digits/alphabets via CNN & ANN.
    
    Click here to try the app: 
    
    [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-14-deep-detect-my-handwriting-srcmain-ltg1gw.streamlit.app/)
 
-## Steps Taken In This Project
-<details>
-  <summary>Click to expand!</summary>
-<br/>
-
+## Steps taken in this project <a name="project-steps"></a>
 - Data Collection
 - EDA & Visualization
-- Model selection & building it.
-- Evaluation of the models.
-- Saving the models.
-- Application program for real time usage.
-- Deployment on streamlit-sharing.
-</details>
+- Model selection & building it
+- Evaluation of the models
+- Saving the models
+- Application program for real time usage
+- Deployment on streamlit-sharing
 
-## Installation And Usage
-<details>
-  <summary>Click to expand!</summary>
-<br/>
-
-1. Installation
-   - Download/clone this repository. Then open terminal (make sure you are in the project's directory).
-   - Create a virtual environment using the command ````py -m venv yourVenvName```` and activate it using ````yourVenvName\Scripts\activate.bat````.
-   - Then run the following command ````pip install -r requirements.txt````. With this, all the dependencies will be installed in your virtual environment. 
-> **Note:** *If any dependency is missing or an error shows up, install it using ````pip install moduleName````*.
-
-2. Usage
-   - Open your project folder and go to the terminal and activate your virtual environment. Then type ````streamlit run src\main.py```` and the app will open in your web 
-   browser. Now you can interact with it or play with the code and add your own features and if you wish - you can deploy it too.
-</details>
+## Installation and Usage <a name="installation-usage"></a>
+- Requirements:
+   - `python >= 3.4`
+- `git clone https://github.com/AI-14/deep-detect-my-handwriting.git` - clones the repository
+- `cd deep-detect-my-handwriting`
+- `py -m venv yourVenvName` - creates a virtual environment
+- `yourVenvName\Scripts\activate.bat` - activates the virtual environment
+- `pip install -r requirements.txt` - installs all modules
+- `streamlit run src\main.py` - runs the app
