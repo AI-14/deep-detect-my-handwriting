@@ -2,7 +2,7 @@
 
 ## Table of contents
 1. [Description](#description)
-2. [Steps taken in this project](#project-steps)
+2. [Steps taken in this Project](#project-steps)
 3. [Installation and Usage](#installation-usage)
 
 ## Description <a name="description"></a>
@@ -12,7 +12,7 @@ Click here to try the app:
    
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://ai-14-deep-detect-my-handwriting-srcmain-ltg1gw.streamlit.app/)
 
-## Steps taken in this project <a name="project-steps"></a>
+## Steps taken in this Project <a name="project-steps"></a>
 - Data collection
 - EDA & visualization
 - Model selection & building it
